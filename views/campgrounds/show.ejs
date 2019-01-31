@@ -1,0 +1,16 @@
+<% include ../partials/header%>
+
+
+<h1>Show page BABAY </h1>
+
+<p><%=campground.name%></p>
+
+<img src="<%=campground.image%>">
+
+<p><%=campground.description%></p>
+
+<p>
+    <a class="btn btn-success" href="/campgrounds/<%=campground._id%>/comments/new">Add New Comment</a>
+</p>
+
+<% include ../partials/footer%>
